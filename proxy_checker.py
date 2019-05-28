@@ -3,7 +3,8 @@ from Core.request_handler import ProxyChecker
 from Core.exceptions import ProxyCheckerDirHandlingError, ProxyCheckerRequestException
 #import csv
 
-port = '3129'
+port = '2007' # Change Port to your need
+
 target_urls = ['http://google.com',
                 'http://github.com',
                 'http://msn.com'                
