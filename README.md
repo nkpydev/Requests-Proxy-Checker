@@ -19,8 +19,8 @@ So, I created this program, which has following features:
 ### To Do:
 - ~~Write result into a CSV file~~
 
-### License:
+## License:
 [MIT](https://github.com/nkpydev/Requests-Proxy-Checker/blob/master/LICENSE)
 
-### Author:
+## Author:
 [nkpydev](https://github.com/nkpydev)
