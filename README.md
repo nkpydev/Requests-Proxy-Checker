@@ -18,6 +18,7 @@ So, I created this program, which has following features:
 
 ### To Do:
 - ~~Write result into a CSV file~~
+- MultiThreading
 
 ## License:
 [MIT](https://github.com/nkpydev/Requests-Proxy-Checker/blob/master/LICENSE)
