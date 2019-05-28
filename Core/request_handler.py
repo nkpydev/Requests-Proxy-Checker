@@ -19,7 +19,10 @@ class ProxyChecker():
     def ip_resolver(self,ip,port,target_url):
         self.headers = {'User-Agent': self.user_agent}
         self.proxies = {'http': 'http://{}:{}'.format(ip,port)}
-        
+        # For Authenticated Proxies, use below line:
+        # {'http':'http://{}:{}@{}.{}'.format(auth_user,auth_pwd,ip,port)}
+        # Kindly note: store your auth_user and auth_pwd as variables, before your use this line.
+
         try:
             pro = requests.get(target_url,timeout=self.time_out,proxies=self.proxies,headers=self.headers)
             return [ip,target_url,pro.status_code]
