@@ -11,11 +11,16 @@ So, I created this program, which has following features:
 - [x] Easily modifiable
 - [x] **Takes input into a input.txt file and generate output of result.csv**
 
-## To Do:
+## How to use:
+- Add IPs to test into the input.txt file, inside the Data directory.
+- Run this proxy_checker.py
+- Output will be generated automatically into the same Data directory.
+
+### To Do:
 - ~~Write result into a CSV file~~
 
-## License:
+### License:
 [MIT](https://github.com/nkpydev/Requests-Proxy-Checker/blob/master/LICENSE)
 
-## Author:
+### Author:
 [nkpydev](https://github.com/nkpydev)
