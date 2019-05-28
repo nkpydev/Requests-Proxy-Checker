@@ -9,7 +9,7 @@ So, I created this program, which has following features:
 - [x] Has feature to check on specific URLs
 - [x] Can work with authenticated as well as non-authenticated proxies
 - [x] Easily modifiable
-- [x] **Takes input into a input.txt file and generate output of result.csv**
+- [x] **Takes input into a 'input.txt' file and generate output of 'output.csv'**
 
 ## How to use:
 - Add IPs to test into the input.txt file, inside the Data directory.
