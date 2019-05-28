@@ -19,6 +19,6 @@ class ProxyChecker():
 
         try:
             pro = requests.get(target_url,timeout=self.time_out,proxies=self.proxies,headers=self.headers)
-            return {ip : [target_url,pro.status_code]}
+            return [ip,target_url,pro.status_code]
         except Exception as ex:
-            return {ip: [target_url,ex]}
+            return [ip,target_url,ex]
